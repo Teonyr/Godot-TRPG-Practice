@@ -10,7 +10,7 @@ onready var current_position : Vector2 = self.position
 
 #load was preload, but I got some complex error - I hope it doesn't make too much difference
 #https://libredd.it/r/godot/comments/hu213d/class_was_found_in_global_scope_but_its_script/
-var GridControl2D : Resource = preload("res://src/classes/GridControl2D.tres")
+var GridControl2D : Resource = load("res://src/classes/GridControl2D.tres")
 
 # I need to register with the grid with my actual position
 
